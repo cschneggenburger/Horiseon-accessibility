@@ -1,13 +1,16 @@
+/* Universal Selector to apply to the entire HTML*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets background color for entire landing page. */
 body {
     background-color: #d9dcd6;
 }
 
+/* The below selectors for header set the styling for the header section of the landing page*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +23,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* Allows for the seo in the company name to be a different color from the rest of the name.*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Using nav for the navigation bar allows for a more readable and scalable code for another developer to follow*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,6 +46,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* The next four selectors set the header elements, links and paragraph elements */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -60,6 +66,7 @@ p {
     font-size: 16px;
 }
 
+/* The below selector sets the background/banner for the website landing page.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -79,6 +86,7 @@ p {
     margin-left: 25px;
 }
 
+/* The below 3 selectors set the attributes for the content section and the aside cards on the left side of the page.*/
 .content {
     width: 75%;
     display: inline-block;
@@ -98,6 +106,7 @@ p {
     color: #ffffff;
 }
 
+/* The below 3 selectors set the attributes for the benefits section and the aside cards on the right side of the page. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,6 +129,7 @@ p {
     color: #ffffff;
 }
 
+/* Footer selector to set the footer attributes on the page.*/
 footer {
     padding: 30px;
     clear: both;
