@@ -97,7 +97,7 @@ p {
     max-height: 200px;
 }
 
-.aside-left {
+.card {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -124,7 +124,7 @@ p {
     max-width: 150px;
 }
 
-.aside-right {
+aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -137,6 +137,6 @@ footer {
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
