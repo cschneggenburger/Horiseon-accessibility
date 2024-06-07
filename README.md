@@ -4,6 +4,13 @@
 
 This webpage was refactored in order to add in accessibility features for a marketing agency client to optimize their webpage for search engines to drive more views and business. Below you will find the user story and acceptance criteria for the project and a mockup image of the finished product.
 
+## Code Hierarchy
+
+Root will contain index.html, assets folder and README.md.
+Assets folder contains the CSS folder and Images folder.
+CSS files are contained in the CSS Folder.
+Images are contained in the Images folder.
+
 ## User Story
 
 ```
